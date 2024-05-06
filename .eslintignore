@@ -1,0 +1,9 @@
+**/*.min.js
+**/bin/**
+**/node_modules/**
+**/vendor/**
+**/plugin/assets/js/*.js
+**/theme/assets/js/*.js
+**/plugin/assets/src/types/*
+build/*
+built/*

@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostsOrderbyControl matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <div
+        class="components-base-control css-wdf2ti-Wrapper e1puf3u3"
+      >
+        <div
+          class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+        >
+          <div
+            class="components-flex components-select-control em5sgkm7 css-c0mqng-View-Flex-sx-Base-sx-Items-ItemsColumn-Root-rootLabelPositionStyles em57xhy0"
+            data-wp-c16t="true"
+            data-wp-component="Flex"
+          >
+            <div
+              class="components-flex-item em5sgkm3 css-1fmchc6-View-Item-sx-Base-LabelWrapper em57xhy0"
+              data-wp-c16t="true"
+              data-wp-component="FlexItem"
+            >
+              <label
+                class="components-truncate components-text components-input-control__label em5sgkm4 css-uhi73o-View-Text-sx-Base-BaseLabel-labelPadding em57xhy0"
+                data-wp-c16t="true"
+                data-wp-component="Text"
+                for="inspector-select-control-0"
+              >
+                Order posts by
+              </label>
+            </div>
+            <div
+              class="components-input-control__container css-1t6cb2b-Container-containerDisabledStyles-containerWidthStyles em5sgkm6"
+            >
+              <select
+                class="components-select-control__input css-vsvrv2-Select-fontSizeStyles-sizeStyles e1mv6sxx1"
+                id="inspector-select-control-0"
+              >
+                <option
+                  value="date"
+                >
+                  Newness - newest first
+                </option>
+                <option
+                  value="title"
+                >
+                  Title - alphabetical
+                </option>
+                <option
+                  value="popularity"
+                >
+                  Comments - most first
+                </option>
+              </select>
+              <span
+                class="components-input-control__suffix css-6tfwoi-Suffix em5sgkm0"
+              >
+                <div
+                  class="css-1einvap-DownArrowWrapper e1mv6sxx0"
+                >
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z"
+                    />
+                  </svg>
+                </div>
+              </span>
+              <div
+                aria-hidden="true"
+                class="components-input-control__backdrop css-1gb9p1j-BackdropUI-backdropFocusedStyles em5sgkm2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="components-base-control css-wdf2ti-Wrapper e1puf3u3"
+    >
+      <div
+        class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+      >
+        <div
+          class="components-flex components-select-control em5sgkm7 css-c0mqng-View-Flex-sx-Base-sx-Items-ItemsColumn-Root-rootLabelPositionStyles em57xhy0"
+          data-wp-c16t="true"
+          data-wp-component="Flex"
+        >
+          <div
+            class="components-flex-item em5sgkm3 css-1fmchc6-View-Item-sx-Base-LabelWrapper em57xhy0"
+            data-wp-c16t="true"
+            data-wp-component="FlexItem"
+          >
+            <label
+              class="components-truncate components-text components-input-control__label em5sgkm4 css-uhi73o-View-Text-sx-Base-BaseLabel-labelPadding em57xhy0"
+              data-wp-c16t="true"
+              data-wp-component="Text"
+              for="inspector-select-control-0"
+            >
+              Order posts by
+            </label>
+          </div>
+          <div
+            class="components-input-control__container css-1t6cb2b-Container-containerDisabledStyles-containerWidthStyles em5sgkm6"
+          >
+            <select
+              class="components-select-control__input css-vsvrv2-Select-fontSizeStyles-sizeStyles e1mv6sxx1"
+              id="inspector-select-control-0"
+            >
+              <option
+                value="date"
+              >
+                Newness - newest first
+              </option>
+              <option
+                value="title"
+              >
+                Title - alphabetical
+              </option>
+              <option
+                value="popularity"
+              >
+                Comments - most first
+              </option>
+            </select>
+            <span
+              class="components-input-control__suffix css-6tfwoi-Suffix em5sgkm0"
+            >
+              <div
+                class="css-1einvap-DownArrowWrapper e1mv6sxx0"
+              >
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  width="18"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.5 11.6L12 16l-5.5-4.4.9-1.2L12 14l4.5-3.6 1 1.2z"
+                  />
+                </svg>
+              </div>
+            </span>
+            <div
+              aria-hidden="true"
+              class="components-input-control__backdrop css-1gb9p1j-BackdropUI-backdropFocusedStyles em5sgkm2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

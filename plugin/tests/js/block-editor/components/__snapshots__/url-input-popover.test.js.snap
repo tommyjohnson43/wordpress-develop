@@ -1,0 +1,1957 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UrlInputPopover matches snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <span>
+        <div
+          class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+          data-x-axis="center"
+          data-y-axis="bottom"
+          style="top: 0px; left: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="components-popover__content"
+          >
+            <div
+              style="position: relative;"
+            >
+              <iframe
+                aria-hidden="true"
+                frameborder="0"
+                src="about:blank"
+                style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+                tabindex="-1"
+              />
+              <div
+                class="components-panel__body is-opened"
+              >
+                <div
+                  class="material-design-url-input-popover__input-wrapper"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                  />
+                  <div
+                    class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                  >
+                    <div
+                      class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                    >
+                      <input
+                        class="components-text-control__input"
+                        id="inspector-text-control-0"
+                        placeholder="Paste or type URL"
+                        type="text"
+                        value="http://test.loc"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    class="components-button material-design-url-input-control__more-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-ellipsis"
+                    />
+                  </button>
+                  <button
+                    class="components-button material-design-url-input-control__close-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-no"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <div
+        class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+        data-x-axis="center"
+        data-y-axis="bottom"
+        style="top: 0px; left: 0px;"
+        tabindex="-1"
+      >
+        <div
+          class="components-popover__content"
+        >
+          <div
+            style="position: relative;"
+          >
+            <iframe
+              aria-hidden="true"
+              frameborder="0"
+              src="about:blank"
+              style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+            <div
+              class="components-panel__body is-opened"
+            >
+              <div
+                class="material-design-url-input-popover__input-wrapper"
+              >
+                <span
+                  class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                />
+                <div
+                  class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                >
+                  <div
+                    class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                  >
+                    <input
+                      class="components-text-control__input"
+                      id="inspector-text-control-0"
+                      placeholder="Paste or type URL"
+                      type="text"
+                      value="http://test.loc"
+                    />
+                  </div>
+                </div>
+                <button
+                  aria-expanded="false"
+                  class="components-button material-design-url-input-control__more-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-ellipsis"
+                  />
+                </button>
+                <button
+                  class="components-button material-design-url-input-control__close-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-no"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UrlInputPopover matches snapshot all default properties are not provided 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div />
+  </body>,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UrlInputPopover matches snapshot when the disableSuggestions property is set to false 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <span>
+        <div
+          class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+          data-x-axis="center"
+          data-y-axis="bottom"
+          style="top: 0px; left: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="components-popover__content"
+          >
+            <div
+              style="position: relative;"
+            >
+              <iframe
+                aria-hidden="true"
+                frameborder="0"
+                src="about:blank"
+                style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+                tabindex="-1"
+              />
+              <div
+                class="components-panel__body is-opened"
+              >
+                <div
+                  class="material-design-url-input-popover__input-wrapper"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                  />
+                  <div
+                    class="components-base-control block-editor-url-input"
+                  >
+                    <div
+                      class="components-base-control__field"
+                    >
+                      <input
+                        aria-autocomplete="list"
+                        aria-expanded="false"
+                        aria-label="URL"
+                        aria-owns="block-editor-url-input-suggestions-1"
+                        class="block-editor-url-input__input"
+                        placeholder="Paste URL or type to search"
+                        role="combobox"
+                        type="text"
+                        value="http://test.loc"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    class="components-button material-design-url-input-control__more-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-ellipsis"
+                    />
+                  </button>
+                  <button
+                    class="components-button material-design-url-input-control__close-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-no"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <div
+        class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+        data-x-axis="center"
+        data-y-axis="bottom"
+        style="top: 0px; left: 0px;"
+        tabindex="-1"
+      >
+        <div
+          class="components-popover__content"
+        >
+          <div
+            style="position: relative;"
+          >
+            <iframe
+              aria-hidden="true"
+              frameborder="0"
+              src="about:blank"
+              style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+            <div
+              class="components-panel__body is-opened"
+            >
+              <div
+                class="material-design-url-input-popover__input-wrapper"
+              >
+                <span
+                  class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                />
+                <div
+                  class="components-base-control block-editor-url-input"
+                >
+                  <div
+                    class="components-base-control__field"
+                  >
+                    <input
+                      aria-autocomplete="list"
+                      aria-expanded="false"
+                      aria-label="URL"
+                      aria-owns="block-editor-url-input-suggestions-1"
+                      class="block-editor-url-input__input"
+                      placeholder="Paste URL or type to search"
+                      role="combobox"
+                      type="text"
+                      value="http://test.loc"
+                    />
+                  </div>
+                </div>
+                <button
+                  aria-expanded="false"
+                  class="components-button material-design-url-input-control__more-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-ellipsis"
+                  />
+                </button>
+                <button
+                  class="components-button material-design-url-input-control__close-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-no"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UrlInputPopover matches snapshot when the newTab and noFollow properties are set to false 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <span>
+        <div
+          class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+          data-x-axis="center"
+          data-y-axis="bottom"
+          style="top: 0px; left: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="components-popover__content"
+          >
+            <div
+              style="position: relative;"
+            >
+              <iframe
+                aria-hidden="true"
+                frameborder="0"
+                src="about:blank"
+                style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+                tabindex="-1"
+              />
+              <div
+                class="components-panel__body is-opened"
+              >
+                <div
+                  class="material-design-url-input-popover__input-wrapper"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                  />
+                  <div
+                    class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                  >
+                    <div
+                      class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                    >
+                      <input
+                        class="components-text-control__input"
+                        id="inspector-text-control-6"
+                        placeholder="Paste or type URL"
+                        type="text"
+                        value="http://test.loc"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    class="components-button material-design-url-input-control__more-button"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-ellipsis"
+                    />
+                  </button>
+                  <button
+                    class="components-button material-design-url-input-control__close-button"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-no"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <div
+        class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+        data-x-axis="center"
+        data-y-axis="bottom"
+        style="top: 0px; left: 0px;"
+        tabindex="-1"
+      >
+        <div
+          class="components-popover__content"
+        >
+          <div
+            style="position: relative;"
+          >
+            <iframe
+              aria-hidden="true"
+              frameborder="0"
+              src="about:blank"
+              style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+            <div
+              class="components-panel__body is-opened"
+            >
+              <div
+                class="material-design-url-input-popover__input-wrapper"
+              >
+                <span
+                  class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                />
+                <div
+                  class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                >
+                  <div
+                    class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                  >
+                    <input
+                      class="components-text-control__input"
+                      id="inspector-text-control-6"
+                      placeholder="Paste or type URL"
+                      type="text"
+                      value="http://test.loc"
+                    />
+                  </div>
+                </div>
+                <button
+                  aria-expanded="false"
+                  class="components-button material-design-url-input-control__more-button"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-ellipsis"
+                  />
+                </button>
+                <button
+                  class="components-button material-design-url-input-control__close-button"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-no"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UrlInputPopover matches snapshot when the newTab property is set to false 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <span>
+        <div
+          class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+          data-x-axis="center"
+          data-y-axis="bottom"
+          style="top: 0px; left: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="components-popover__content"
+          >
+            <div
+              style="position: relative;"
+            >
+              <iframe
+                aria-hidden="true"
+                frameborder="0"
+                src="about:blank"
+                style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+                tabindex="-1"
+              />
+              <div
+                class="components-panel__body is-opened"
+              >
+                <div
+                  class="material-design-url-input-popover__input-wrapper"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                  />
+                  <div
+                    class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                  >
+                    <div
+                      class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                    >
+                      <input
+                        class="components-text-control__input"
+                        id="inspector-text-control-4"
+                        placeholder="Paste or type URL"
+                        type="text"
+                        value="http://test.loc"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    class="components-button material-design-url-input-control__more-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-ellipsis"
+                    />
+                  </button>
+                  <button
+                    class="components-button material-design-url-input-control__close-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-no"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <div
+        class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+        data-x-axis="center"
+        data-y-axis="bottom"
+        style="top: 0px; left: 0px;"
+        tabindex="-1"
+      >
+        <div
+          class="components-popover__content"
+        >
+          <div
+            style="position: relative;"
+          >
+            <iframe
+              aria-hidden="true"
+              frameborder="0"
+              src="about:blank"
+              style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+            <div
+              class="components-panel__body is-opened"
+            >
+              <div
+                class="material-design-url-input-popover__input-wrapper"
+              >
+                <span
+                  class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                />
+                <div
+                  class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                >
+                  <div
+                    class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                  >
+                    <input
+                      class="components-text-control__input"
+                      id="inspector-text-control-4"
+                      placeholder="Paste or type URL"
+                      type="text"
+                      value="http://test.loc"
+                    />
+                  </div>
+                </div>
+                <button
+                  aria-expanded="false"
+                  class="components-button material-design-url-input-control__more-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-ellipsis"
+                  />
+                </button>
+                <button
+                  class="components-button material-design-url-input-control__close-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-no"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UrlInputPopover matches snapshot when the noFollow property is set to false 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <span>
+        <div
+          class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+          data-x-axis="center"
+          data-y-axis="bottom"
+          style="top: 0px; left: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="components-popover__content"
+          >
+            <div
+              style="position: relative;"
+            >
+              <iframe
+                aria-hidden="true"
+                frameborder="0"
+                src="about:blank"
+                style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+                tabindex="-1"
+              />
+              <div
+                class="components-panel__body is-opened"
+              >
+                <div
+                  class="material-design-url-input-popover__input-wrapper"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                  />
+                  <div
+                    class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                  >
+                    <div
+                      class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                    >
+                      <input
+                        class="components-text-control__input"
+                        id="inspector-text-control-5"
+                        placeholder="Paste or type URL"
+                        type="text"
+                        value="http://test.loc"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    class="components-button material-design-url-input-control__more-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-ellipsis"
+                    />
+                  </button>
+                  <button
+                    class="components-button material-design-url-input-control__close-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-no"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <div
+        class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+        data-x-axis="center"
+        data-y-axis="bottom"
+        style="top: 0px; left: 0px;"
+        tabindex="-1"
+      >
+        <div
+          class="components-popover__content"
+        >
+          <div
+            style="position: relative;"
+          >
+            <iframe
+              aria-hidden="true"
+              frameborder="0"
+              src="about:blank"
+              style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+            <div
+              class="components-panel__body is-opened"
+            >
+              <div
+                class="material-design-url-input-popover__input-wrapper"
+              >
+                <span
+                  class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                />
+                <div
+                  class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                >
+                  <div
+                    class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                  >
+                    <input
+                      class="components-text-control__input"
+                      id="inspector-text-control-5"
+                      placeholder="Paste or type URL"
+                      type="text"
+                      value="http://test.loc"
+                    />
+                  </div>
+                </div>
+                <button
+                  aria-expanded="false"
+                  class="components-button material-design-url-input-control__more-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-ellipsis"
+                  />
+                </button>
+                <button
+                  class="components-button material-design-url-input-control__close-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-no"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UrlInputPopover matches snapshot when the onChange handler is not provided 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div />
+  </body>,
+  "container": <div />,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UrlInputPopover matches snapshot when the onChangeNewTab handler is not provided 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <span>
+        <div
+          class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+          data-x-axis="center"
+          data-y-axis="bottom"
+          style="top: 0px; left: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="components-popover__content"
+          >
+            <div
+              style="position: relative;"
+            >
+              <iframe
+                aria-hidden="true"
+                frameborder="0"
+                src="about:blank"
+                style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+                tabindex="-1"
+              />
+              <div
+                class="components-panel__body is-opened"
+              >
+                <div
+                  class="material-design-url-input-popover__input-wrapper"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                  />
+                  <div
+                    class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                  >
+                    <div
+                      class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                    >
+                      <input
+                        class="components-text-control__input"
+                        id="inspector-text-control-1"
+                        placeholder="Paste or type URL"
+                        type="text"
+                        value="http://test.loc"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="components-button material-design-url-input-control__close-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-no"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <div
+        class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+        data-x-axis="center"
+        data-y-axis="bottom"
+        style="top: 0px; left: 0px;"
+        tabindex="-1"
+      >
+        <div
+          class="components-popover__content"
+        >
+          <div
+            style="position: relative;"
+          >
+            <iframe
+              aria-hidden="true"
+              frameborder="0"
+              src="about:blank"
+              style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+            <div
+              class="components-panel__body is-opened"
+            >
+              <div
+                class="material-design-url-input-popover__input-wrapper"
+              >
+                <span
+                  class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                />
+                <div
+                  class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                >
+                  <div
+                    class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                  >
+                    <input
+                      class="components-text-control__input"
+                      id="inspector-text-control-1"
+                      placeholder="Paste or type URL"
+                      type="text"
+                      value="http://test.loc"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="components-button material-design-url-input-control__close-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-no"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UrlInputPopover matches snapshot when the onChangeNoFollow handler is not provided 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <span>
+        <div
+          class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+          data-x-axis="center"
+          data-y-axis="bottom"
+          style="top: 0px; left: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="components-popover__content"
+          >
+            <div
+              style="position: relative;"
+            >
+              <iframe
+                aria-hidden="true"
+                frameborder="0"
+                src="about:blank"
+                style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+                tabindex="-1"
+              />
+              <div
+                class="components-panel__body is-opened"
+              >
+                <div
+                  class="material-design-url-input-popover__input-wrapper"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                  />
+                  <div
+                    class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                  >
+                    <div
+                      class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                    >
+                      <input
+                        class="components-text-control__input"
+                        id="inspector-text-control-2"
+                        placeholder="Paste or type URL"
+                        type="text"
+                        value="http://test.loc"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    class="components-button material-design-url-input-control__more-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-ellipsis"
+                    />
+                  </button>
+                  <button
+                    class="components-button material-design-url-input-control__close-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-no"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <div
+        class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+        data-x-axis="center"
+        data-y-axis="bottom"
+        style="top: 0px; left: 0px;"
+        tabindex="-1"
+      >
+        <div
+          class="components-popover__content"
+        >
+          <div
+            style="position: relative;"
+          >
+            <iframe
+              aria-hidden="true"
+              frameborder="0"
+              src="about:blank"
+              style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+            <div
+              class="components-panel__body is-opened"
+            >
+              <div
+                class="material-design-url-input-popover__input-wrapper"
+              >
+                <span
+                  class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                />
+                <div
+                  class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                >
+                  <div
+                    class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                  >
+                    <input
+                      class="components-text-control__input"
+                      id="inspector-text-control-2"
+                      placeholder="Paste or type URL"
+                      type="text"
+                      value="http://test.loc"
+                    />
+                  </div>
+                </div>
+                <button
+                  aria-expanded="false"
+                  class="components-button material-design-url-input-control__more-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-ellipsis"
+                  />
+                </button>
+                <button
+                  class="components-button material-design-url-input-control__close-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-no"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UrlInputPopover matches snapshot when the onPopupClose handler is not provided 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <span>
+        <div
+          class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+          data-x-axis="center"
+          data-y-axis="bottom"
+          style="top: 0px; left: 0px;"
+          tabindex="-1"
+        >
+          <div
+            class="components-popover__content"
+          >
+            <div
+              style="position: relative;"
+            >
+              <iframe
+                aria-hidden="true"
+                frameborder="0"
+                src="about:blank"
+                style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+                tabindex="-1"
+              />
+              <div
+                class="components-panel__body is-opened"
+              >
+                <div
+                  class="material-design-url-input-popover__input-wrapper"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                  />
+                  <div
+                    class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                  >
+                    <div
+                      class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                    >
+                      <input
+                        class="components-text-control__input"
+                        id="inspector-text-control-3"
+                        placeholder="Paste or type URL"
+                        type="text"
+                        value="http://test.loc"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    aria-expanded="false"
+                    class="components-button material-design-url-input-control__more-button material-design--active"
+                    style="padding: 6px;"
+                    type="button"
+                  >
+                    <span
+                      class="dashicon dashicons dashicons-ellipsis"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </span>
+    </div>
+  </body>,
+  "container": <div>
+    <span>
+      <div
+        class="components-popover material-design-url-input-popover components-animate__appear is-from-top is-from-center is-without-arrow"
+        data-x-axis="center"
+        data-y-axis="bottom"
+        style="top: 0px; left: 0px;"
+        tabindex="-1"
+      >
+        <div
+          class="components-popover__content"
+        >
+          <div
+            style="position: relative;"
+          >
+            <iframe
+              aria-hidden="true"
+              frameborder="0"
+              src="about:blank"
+              style="display: block; opacity: 0; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;"
+              tabindex="-1"
+            />
+            <div
+              class="components-panel__body is-opened"
+            >
+              <div
+                class="material-design-url-input-popover__input-wrapper"
+              >
+                <span
+                  class="dashicon dashicons dashicons-admin-links material-design-url-input-control__icon"
+                />
+                <div
+                  class="components-base-control material-design-url-input-control__input material-design-url-input-control__input--plain css-wdf2ti-Wrapper e1puf3u3"
+                >
+                  <div
+                    class="components-base-control__field css-igk9ll-StyledField e1puf3u2"
+                  >
+                    <input
+                      class="components-text-control__input"
+                      id="inspector-text-control-3"
+                      placeholder="Paste or type URL"
+                      type="text"
+                      value="http://test.loc"
+                    />
+                  </div>
+                </div>
+                <button
+                  aria-expanded="false"
+                  class="components-button material-design-url-input-control__more-button material-design--active"
+                  style="padding: 6px;"
+                  type="button"
+                >
+                  <span
+                    class="dashicon dashicons dashicons-ellipsis"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

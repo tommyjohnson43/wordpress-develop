@@ -1,0 +1,76 @@
+/**
+ * Copyright 2020 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.material-settings {
+	--md-sys-typescale-headline-large-line-height: 2em;
+	--md-sys-typescale-headline-medium-line-height: 2em;
+	--md-sys-typescale-headline-small-line-height: 2em;
+
+	--material-design-settings-background-color: #fff;
+	--material-design-settings-primary-color: #212121;
+	--material-design-settings-primary-text: #fff;
+	--material-design-wizard-primary-color: #212121;
+	--material-design-settings-error-color: #dc3232;
+
+	& .mdc-button {
+		--md-sys-color-primary: var(--material-design-settings-primary-color);
+		--md-sys-color-on-primary: var(--material-design-settings-primary-text);
+	}
+
+	& h1,
+	& h3,
+	& h4 {
+		margin-top: 0;
+	}
+
+	& h2 {
+		margin-top: 32px;
+	}
+
+	& p {
+		font-size: 16px;
+		margin: 0;
+	}
+
+	& .material-settings__updates {
+		margin-top: 24px;
+	}
+
+	& .mdc-button--raised .mdc-circular-progress {
+		--md-sys-color-primary: #fff;
+	}
+
+	& .mdc-button.is-loading {
+		text-align: left;
+		width: 105px;
+	}
+
+	& .material-settings__message {
+		align-items: center;
+		color: var(--material-design-settings-error-color);
+		display: flex;
+	}
+
+	& .material-settings__message-text {
+		font-size: 16px;
+		font-weight: 500;
+		margin-left: 10px;
+	}
+
+	.mdc-dialog .mdc-dialog__title {
+		margin-top: 0;
+	}
+}

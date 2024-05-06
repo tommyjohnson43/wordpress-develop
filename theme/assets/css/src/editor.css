@@ -1,0 +1,40 @@
+/**
+ * Copyright 2020 Google LLC
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@import "./conf/variables.css";
+@import "./base/typography.css";
+@import "./components/tables.css";
+@mixin selector-typography .wp-block div, body-large;
+@mixin selector-typography p, body-large;
+@mixin selector-typography .editor-post-title__input, headline-large, 6, 6, 300;
+
+body {
+	background: var(--md-sys-color-background, #fff);
+	color: var(--md-sys-color-on-background, #000);
+}
+
+blockquote {
+	border-left: 1px solid var(--md-sys-color-primary, #6200ee);
+
+	& div {
+		margin-bottom: 1.5rem;
+		margin-top: 1rem;
+	}
+
+	& .wp-block-quote__citation {
+		color: currentColor;
+	}
+}

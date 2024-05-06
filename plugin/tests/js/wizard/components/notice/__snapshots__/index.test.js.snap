@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notice matches snapshot 1`] = `
+<Notice
+  message="There was an error"
+  type="notice-error"
+>
+  <div
+    className="notice material-wizard__notice notice-error"
+  >
+    <p
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "There was an error",
+        }
+      }
+    />
+  </div>
+</Notice>
+`;

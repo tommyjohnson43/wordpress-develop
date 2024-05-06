@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HandPickedPostsBlockControls matches snapshot when the edit mode is false 1`] = `
+<BlockControls>
+  <ForwardRef(Toolbar)
+    id="hand-picked-posts-toolbar"
+    label="Hand picked posts"
+  >
+    <ForwardRef(ToolbarButton)
+      icon="edit"
+      isActive={false}
+      label="Edit"
+      onClick={[Function]}
+    />
+  </ForwardRef(Toolbar)>
+</BlockControls>
+`;
+
+exports[`HandPickedPostsBlockControls matches snapshot when the edit mode is true 1`] = `
+<BlockControls>
+  <ForwardRef(Toolbar)
+    id="hand-picked-posts-toolbar"
+    label="Hand picked posts"
+  >
+    <ForwardRef(ToolbarButton)
+      icon="edit"
+      isActive={true}
+      label="Edit"
+      onClick={[Function]}
+    />
+  </ForwardRef(Toolbar)>
+</BlockControls>
+`;

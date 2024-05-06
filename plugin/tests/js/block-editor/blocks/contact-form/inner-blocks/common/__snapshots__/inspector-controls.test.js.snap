@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InspectorControls matches snapshot 1`] = `
+<InspectorControls>
+  <PanelBody
+    initialOpen={true}
+    title="Field Settings"
+  >
+    <ForwardRef(TextControl)
+      label="ID"
+      onChange={[Function]}
+      value="test-id"
+    />
+    <ForwardRef(TextControl)
+      label="Label"
+      onChange={[Function]}
+      value="Test Label"
+    />
+  </PanelBody>
+</InspectorControls>
+`;

@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab matches snapshot with a different label 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <div
+        aria-label="Another label"
+        aria-orientation="horizontal"
+        class="components-accessible-toolbar"
+        controls=""
+        id="mdp-tab-bar-order-toolbar"
+        role="toolbar"
+      >
+        <button
+          aria-label="Move left"
+          class="components-button components-toolbar-button"
+          data-toolbar-item="true"
+          id="mdp-tab-bar-order-toolbar-1"
+          tabindex="0"
+          type="button"
+        >
+          <i
+            class="material-icons"
+          >
+            keyboard_arrow_left
+          </i>
+        </button>
+        <button
+          aria-label="Move right"
+          class="components-button components-toolbar-button"
+          data-toolbar-item="true"
+          id="mdp-tab-bar-order-toolbar-2"
+          tabindex="-1"
+          type="button"
+        >
+          <i
+            class="material-icons"
+          >
+            keyboard_arrow_right
+          </i>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="Another label"
+      aria-orientation="horizontal"
+      class="components-accessible-toolbar"
+      controls=""
+      id="mdp-tab-bar-order-toolbar"
+      role="toolbar"
+    >
+      <button
+        aria-label="Move left"
+        class="components-button components-toolbar-button"
+        data-toolbar-item="true"
+        id="mdp-tab-bar-order-toolbar-1"
+        tabindex="0"
+        type="button"
+      >
+        <i
+          class="material-icons"
+        >
+          keyboard_arrow_left
+        </i>
+      </button>
+      <button
+        aria-label="Move right"
+        class="components-button components-toolbar-button"
+        data-toolbar-item="true"
+        id="mdp-tab-bar-order-toolbar-2"
+        tabindex="-1"
+        type="button"
+      >
+        <i
+          class="material-icons"
+        >
+          keyboard_arrow_right
+        </i>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tab matches snapshot with base props 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <p
+      class="a11y-speak-intro-text"
+      hidden="hidden"
+      id="a11y-speak-intro-text"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    >
+      Notifications
+    </p>
+    <div
+      aria-atomic="true"
+      aria-live="assertive"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-assertive"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div
+      aria-atomic="true"
+      aria-live="polite"
+      aria-relevant="additions text"
+      class="a11y-speak-region"
+      id="a11y-speak-polite"
+      style="position: absolute;margin: -1px;padding: 0;height: 1px;width: 1px;overflow: hidden;clip: rect(1px, 1px, 1px, 1px);-webkit-clip-path: inset(50%);clip-path: inset(50%);border: 0;word-wrap: normal !important;"
+    />
+    <div>
+      <div
+        aria-label="Change the tab order"
+        aria-orientation="horizontal"
+        class="components-accessible-toolbar"
+        controls=""
+        id="mdp-tab-bar-order-toolbar"
+        role="toolbar"
+      >
+        <button
+          aria-label="Move left"
+          class="components-button components-toolbar-button"
+          data-toolbar-item="true"
+          id="mdp-tab-bar-order-toolbar-1"
+          tabindex="0"
+          type="button"
+        >
+          <i
+            class="material-icons"
+          >
+            keyboard_arrow_left
+          </i>
+        </button>
+        <button
+          aria-label="Move right"
+          class="components-button components-toolbar-button"
+          data-toolbar-item="true"
+          id="mdp-tab-bar-order-toolbar-2"
+          tabindex="-1"
+          type="button"
+        >
+          <i
+            class="material-icons"
+          >
+            keyboard_arrow_right
+          </i>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-label="Change the tab order"
+      aria-orientation="horizontal"
+      class="components-accessible-toolbar"
+      controls=""
+      id="mdp-tab-bar-order-toolbar"
+      role="toolbar"
+    >
+      <button
+        aria-label="Move left"
+        class="components-button components-toolbar-button"
+        data-toolbar-item="true"
+        id="mdp-tab-bar-order-toolbar-1"
+        tabindex="0"
+        type="button"
+      >
+        <i
+          class="material-icons"
+        >
+          keyboard_arrow_left
+        </i>
+      </button>
+      <button
+        aria-label="Move right"
+        class="components-button components-toolbar-button"
+        data-toolbar-item="true"
+        id="mdp-tab-bar-order-toolbar-2"
+        tabindex="-1"
+        type="button"
+      >
+        <i
+          class="material-icons"
+        >
+          keyboard_arrow_right
+        </i>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
